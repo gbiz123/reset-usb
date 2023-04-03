@@ -13,5 +13,6 @@ chmod +x ~/.local/bin/reset-usb
 ## Usage:
 `sudo reset-usb`
 
+## Credit:
 All credit goes to hoijui on unix.stachexchange.com:
 https://unix.stackexchange.com/questions/704341/how-to-reset-usb-controllers
