@@ -1,16 +1,16 @@
 # reset-usb
-##This program resets all USB ports on a Linux operating system.
-This is useful when you get an annoying dmesg error 110, possible from USB power overdraw.
-Run this script to avoid rebooting your computer.
+## This program resets all USB ports on a Linux operating system.
+This script is a lifesaver when you have USB issues on Linux.
+For example, after a USB port power overdraw, your USB ports may become unusable until you reboot. You may see a dmesg error 110. This script lets you reset all your USB ports without resorting to a reboot.
 
-##Installation:
+## Installation:
 ```
 git clone https://github.com/gbiz123/reset-usb
 cp reset-usb/reset-usb ~/.local/bin
 chmod +x ~/.local/bin/reset-usb
 ```
 
-##Usage:
+## Usage:
 `sudo reset-usb`
 
 All credit goes to hoijui on unix.stachexchange.com:
